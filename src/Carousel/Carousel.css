@@ -1,0 +1,61 @@
+.Carousel_slides {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.Carousel_slides::-webkit-scrollbar {
+  display: none;
+}
+
+.Carousel_slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+  width: min-content;
+  flex: 0 0 auto;
+  text-align: center;
+}
+.Carousel_controls {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.Carousel_link {
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  margin: 0 1em;
+}
+.Carousel_screenReaderOnly {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+@media (min-width: 900px) {
+  .Carousel_slides {
+    justify-content: center;
+    margin: 2em;
+  }
+  .Carousel_slides p {
+    padding: 0.3em;
+    margin: 0;
+  }
+  .Carousel_slide{
+    text-align: left;
+  }
+}

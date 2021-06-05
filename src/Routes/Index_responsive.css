@@ -1,0 +1,232 @@
+@media (min-width: 900px) {
+  .circlesUL {
+    display: flex;
+    flex-direction: row;
+  }
+  .circlesUL li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vw;
+  }
+  .circlesUL .PercentageCircles {
+    width: 4em;
+    height: 4em;
+    margin-bottom: 1em;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    background-image: url(/images/toplook-background.png);
+    background-position: top right;
+    background-size: 55% 12.5%;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: 45;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+  }
+  p {
+    font-size: 25px;
+    margin: 2vw;
+  }
+  .toplook_column {
+    width: 40vw;
+  }
+  .toplook {
+    display: flex;
+    padding: 4vw 2em 0 2em;
+  }
+  .toplook img {
+    align-self: center;
+    display: flex;
+    width: 45vw;
+    padding-top: 4vw;
+  }
+  .toplook h1 {
+    font-size: 60px;
+  }
+  .toplook p {
+    font-size: 45px;
+  }
+  .toplook button {
+    font-size: 45px;
+  }
+
+  .communication {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .communication {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: flex-start;
+    grid-gap: var(--spacing);
+    padding: var(--spacing);
+  }
+
+  .communication_text {
+    grid-column: 2;
+  }
+  .communication_cta {
+    grid-column: 2;
+    justify-self: flex-start;
+  }
+
+  .communication_image {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    justify-self: flex-start;
+    width: 20vw;
+    margin: 1em 2em 1em 3em;
+  }
+
+  .communicationUL li {
+    margin: 2vw;
+  }
+  .communication div {
+    flex-direction: column;
+  }
+  .happiness {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2vw;
+  }
+
+  .happiness {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: flex-start;
+    grid-gap: var(--spacing);
+    padding: var(--spacing);
+  }
+
+  .happiness_text {
+    grid-column: 2;
+  }
+  .happiness_cta {
+    grid-column: 2;
+    justify-self: flex-start;
+  }
+
+  .happiness_image {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    justify-self: flex-start;
+    width: 20vw;
+    margin: 1em 2em 1em 3em;
+  }
+
+  .happinessUL li {
+    margin: 2vw;
+  }
+  .happiness div {
+    flex-direction: column;
+  }
+
+  .effectivity {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 100px;
+  }
+  .effectivity_img {
+    width: 33vw;
+    margin-left: none;
+    margin-right: none;
+  }
+  .statistics {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 100px;
+  }
+
+  .Carousel_references {
+  }
+
+  .statistics .stat_img {
+    width: 33vw;
+  }
+
+  .Carousel_references .Carousel_slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .Carousel_references .Carousel_slide {
+    width: auto;
+    padding: 0;
+  }
+
+  .Carousel_references .Carousel_references_slide {
+    width: auto;
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 9px;
+    border-width: 4px;
+    border-color: rgb(190, 228, 225);
+    margin-bottom: 1em;
+  }
+  .Carousel_references .Carousel_controls {
+    display: none;
+  }
+  .Carousel_conversion .Carousel_controls {
+    display: none;
+  }
+
+  .programming {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 5vw;
+  }
+  .programming p {
+    margin-top: 2em;
+  }
+  .programming div {
+    border-style: solid;
+    border-color: gray;
+    border-width: medium;
+    background-color: white;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  .programming img {
+    margin: 2em 0 0 0;
+    width: 5em;
+    align-self: center;
+  }
+  .clients_items a img {
+    height: 2em;
+  }
+  .footerSection {
+    height: 2em;
+    padding: 0.5em;
+  }
+  .footerSection p {
+    font-size: 25px;
+  }
+  .stat_img {
+    width: 40%;
+  }
+  .primary_bottom {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+}

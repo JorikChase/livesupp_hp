@@ -1,0 +1,118 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+}
+
+.Header_aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Header_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header_menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+  box-sizing: border-box;
+}
+
+.Header_burger {
+  background: transparent none;
+  border: 0;
+  font-size: 7vw;
+  align-self: center;
+}
+
+.Header_menu__open {
+  max-height: 100vh;
+}
+
+.Header_menu_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: var(--spacing);
+  height: 100vh;
+}
+
+.Header_menu_link {
+  color: black;
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 4vh;
+}
+
+.Header_navigation a:hover {
+  color: rgb(94, 94, 94);
+}
+.Header_navigation_logo {
+  margin-left: 5vw;
+  margin-top: 1vw;
+  height: 8vw;
+}
+.Header_menu_button.Header_menu_button {
+  font-size: 25px;
+  margin: 4vh;
+}
+@media (min-width: 900px) {
+  .Header_burger {
+    display: none;
+  }
+  .Header_menu {
+    position: relative;
+    right: auto;
+    top: auto;
+    left: auto;
+    overflow: visible;
+    max-height: none;
+    transition: none;
+  }
+  .Header_menu_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    height: auto;
+  }
+  .Header_navigation_logo {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    height: 2.5vw;
+    font-size: 0;
+  }
+  .Header_menu_link {
+    color: black;
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0;
+  }
+  .Header_menu_button.Header_menu_button {
+    font-size: 25px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .Header_content {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}

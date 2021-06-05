@@ -1,0 +1,79 @@
+:root {
+  --font: "Rubik", sans-serif;
+  --spacing: 10px;
+  --menu-height: 10vw;
+}
+
+.App {
+  font-family: var(--font);
+  text-align: center;
+}
+
+body,
+html {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3vw;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-weight: normal;
+}
+.app {
+  font-family: var(--font);
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 4vw;
+}
+
+.footerSection {
+  margin-top: 2em;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer_a a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1em;
+  transition: color 0.4s ease;
+}
+.footer_a a:hover {
+  color: palevioletred;
+}
+@media (min-width: 900px) {
+  :root {
+    --menu-height: 55px;
+  }
+  p {
+    font-size: 30px;
+  }
+  html,
+  body {
+    font-size: 30px;
+  }
+  a {
+    font-size: 25px;
+  }
+  .footer_a a {
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 1920px) {
+  html,
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+}

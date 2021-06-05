@@ -1,0 +1,30 @@
+.references_div {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.references_div div {
+  flex-direction: column;
+  align-items: center;
+  margin-top: -20px;
+  padding: 40px 2em 2em 2em;
+  background-color: #e7f5f4;
+  text-align: center;
+}
+.references_div img {
+  width: 18%;
+  z-index: 80;
+}
+@media (min-width: 900px) {
+  .references_div div {
+    width: 60vw;
+    margin: 10%;
+    margin-top: -20px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+  }
+  .references_div img {
+    width: 6%;
+  }
+}

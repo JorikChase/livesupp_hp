@@ -1,0 +1,239 @@
+section {
+  scroll-snap-align: start;
+}
+.toplook {
+  padding: var(--menu-height) 5vw 5vw 5vw;
+}
+
+.toplook h1 {
+  font-size: 8vw;
+  margin: 0.625em 0;
+  font-weight: normal;
+}
+.toplook p {
+  font-size: 5vw;
+  margin: 1em 0;
+}
+
+.toplook img {
+  margin-top: 30;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
+.section_image {
+  align-content: center;
+}
+.clients_items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 30px 30px;
+  background-color: rgb(255, 246, 246);
+}
+.clients_items a img {
+  display: block;
+  height: 5vw;
+  margin: 1em;
+  filter: saturate(0);
+  transition: filter 0.3s ease-in-out;
+}
+.clients_items a:hover img {
+  filter: saturate(1);
+}
+
+.circlesUL {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.circlesUL li {
+  margin: 1em 0;
+}
+
+.circlesUL .PercentageCircles {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+  margin-left: 5vw;
+  width: 2em;
+  height: 2em;
+}
+.effectivity_img {
+  margin-top: 2em;
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.stat_img {
+  margin-top: 2em;
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.communication {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: flex-start;
+  grid-gap: var(--spacing);
+  background-color: #ffefef;
+  padding: 4vw;
+}
+
+.communication_text {
+  grid-column: 1 / 3;
+}
+.communication_cta {
+  grid-column: 1;
+  grid-row: 2;
+}
+.communication_image {
+  justify-self: flex-end;
+  object-fit: contain;
+  width: 50vw;
+}
+.communicationUL li {
+  list-style-type: none;
+  position: relative;
+}
+
+.communicationUL li::after {
+  content: "";
+  position: absolute;
+  left: -2em;
+  top: 0;
+  width: 1em;
+  height: 1em;
+  background-color: #40b1ba;
+}
+
+.communicationUL li {
+  list-style-type: none;
+  position: relative;
+  margin: 1em;
+}
+
+.communicationUL li::after {
+  content: "";
+  position: absolute;
+  left: -2em;
+  top: 0;
+  width: 1.25em;
+  height: 1.25em;
+  background: transparent url(/tick.png) center center / contain no-repeat;
+}
+.happiness {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: flex-start;
+  grid-gap: var(--spacing);
+  background-color: #e7f5f4;
+  padding: 4vw;
+}
+
+.happiness_text {
+  grid-column: 1 / 3;
+}
+.happiness_cta {
+  grid-column: 1;
+  grid-row: 2;
+}
+.happiness_image {
+  justify-self: flex-end;
+  object-fit: contain;
+  width: 50vw;
+}
+.happinessUL li {
+  list-style-type: none;
+  position: relative;
+}
+
+.happinessUL li::after {
+  content: "";
+  position: absolute;
+  left: -2em;
+  top: 0;
+  width: 1em;
+  height: 1em;
+  background-color: #40b1ba;
+}
+
+.happinessUL li {
+  list-style-type: none;
+  position: relative;
+  margin: 1em;
+}
+
+.happinessUL li::after {
+  content: "";
+  position: absolute;
+  left: -2em;
+  top: 0;
+  width: 1.25em;
+  height: 1.25em;
+  background: transparent url(/tick.png) center center / contain no-repeat;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 246, 246);
+}
+.footerSection p {
+  background: rgb(255, 246, 246);
+  font-size: 1em;
+}
+
+.Carousel_references_slide {
+  box-sizing: border-box;
+  padding: var(--menu-height) 25vw 1em 25vw;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  min-height: 3em;
+}
+.Carousel_conversion_slide {
+  box-sizing: border-box;
+  padding: var(--menu-height) 25vw 1em 25vw;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  min-height: 3em;
+}
+.programming {
+  display: flex;
+  flex-direction: column;
+  padding: 5vw;
+  align-items: center;
+}
+.programming p {
+  margin-top: 2em;
+}
+.programming div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+.programming img {
+  margin-top: 2em;
+  margin-right: 2em;
+  width: 20%;
+}
+.primary_bottom {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}

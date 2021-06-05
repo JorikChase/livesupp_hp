@@ -1,0 +1,42 @@
+.Box {
+  border-style: solid;
+  border-color: gray;
+  border-width: medium;
+  background-color: white;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 30vw;
+  text-align: center;
+  padding: 0.5em;
+  margin: 1em;
+}
+.Box img {
+  align-self: center;
+  height: 3em;
+  padding: 1em;
+}
+.Box p {
+  margin-bottom: 0.4em;
+}
+@media (min-width: 900px) {
+  .Box {
+    width: 20vw;
+    margin: 2vw;
+  }
+}
+@media (min-width: 1200px) {
+  .Box {
+    font-size: 45px;
+    margin: 2vw;
+  }
+}
+@media (min-width: 1900px) {
+  .Box {
+    height: 22vw;
+    font-size: 45px;
+    width: 15vw;
+    margin: 2vw;
+  }
+}

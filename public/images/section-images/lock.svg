@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82.042" height="33.226" viewBox="0 0 82.042 33.226">
+  <g id="Group_897" data-name="Group 897" transform="translate(2.828 2.829)">
+    <line id="Line_164" data-name="Line 164" x1="13.75" y2="13.75" transform="translate(0 0)" fill="none" stroke="#40b1ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line id="Line_165" data-name="Line 165" x1="13.819" y1="13.819" transform="translate(0 13.75)" fill="none" stroke="#40b1ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line id="Line_166" data-name="Line 166" x2="13.75" y2="13.75" transform="translate(62.635 0)" fill="none" stroke="#40b1ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line id="Line_167" data-name="Line 167" y1="13.819" x2="13.819" transform="translate(62.566 13.75)" fill="none" stroke="#40b1ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line id="Line_168" data-name="Line 168" x1="13.75" y2="27.5" transform="translate(43.845 0)" fill="none" stroke="#40b1ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <rect id="Rectangle_739" data-name="Rectangle 739" width="21.425" height="15.963" rx="5" transform="translate(19.179 10.575)" fill="#ee7a7a"/>
+    <rect id="Rectangle_740" data-name="Rectangle 740" width="22.657" height="11.183" rx="5.592" transform="translate(35.278 1.137) rotate(90)" fill="none" stroke="#ee7a7a" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-family: "Red Hat Text", sans-serif;
+}
+.a-fix {
+  color: #0f0f0f;
+  text-decoration: none !important;
+}
+.circle-hp {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 8px #40b1ba;
+  border-style: solid;
+  display: inline-block;
+  padding-top: 45px;
+  font-size: 30px;
+  color: #dc3545;
+}
+.capitalize {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.a-fix:hover {
+  color: #40b1ba !important;
+}
+.here {
+  color: #40b1ba !important;
+}
+video {
+  max-width: 100%;
+}
+.img-max {
+  max-width: 175px;
+  height: 100%;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #f8f9fa;
+}
+.contactbox {
+  background: #0f131e;
+  color: #ddd;
+  padding: 30px;
+  text-decoration: none;
+  max-width: 250px;
+  margin: 5px auto;
+  font-size: 80%;
+  min-width: 250px;
+}
+.contactbox .title {
+  font-size: 20px;
+  padding: 20px 0px 10px;
+}
+.contactbox p {
+  margin-bottom: 0;
+}
+.tile-icon {
+  font-size: 50px;
+  justify-content: center;
+}
+.uvod {
+  display: none;
+}
+.uvod2 {
+  display: none;
+}
+span.blok {
+  display: block;
+}
+span.hide {
+  display: none;
+}
+.td-align td:nth-child(2) {
+  text-align: right;
+}
+
+@media (min-width: 600px) {
+  video {
+    width: 100%;
+  }
+  .contactbox {
+    font-size: 80%;
+    padding: 30px;
+    text-decoration: none;
+    max-width: 250px;
+  }
+  span.blok {
+    display: inline;
+  }
+  span.hide {
+    display: inline;
+  }
+
+  .td-align td:last-child {
+    width: 1%;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 990px) {
+  .uvod {
+    display: list-item;
+  }
+}
+@media (min-width: 1399px) {
+  .uvod2 {
+    display: list-item;
+  }
+}
