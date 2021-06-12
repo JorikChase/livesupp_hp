@@ -8,8 +8,8 @@ export default function HorizontalScroll({}: HorizontalScrollProps) {
       <ol className="HorizontalScroll__viewport">
         <li
           id="HorizontalScroll__slide1"
-          tabIndex="0"
-          class="HorizontalScroll__slide"
+          tabIndex={0}
+          className="HorizontalScroll__slide"
         >
           <div className="HorizontalScroll__snapper">
             <a
@@ -28,8 +28,8 @@ export default function HorizontalScroll({}: HorizontalScrollProps) {
         </li>
         <li
           id="HorizontalScroll__slide2"
-          tabIndex="0"
-          class="HorizontalScroll__slide"
+          tabIndex={0}
+          className="HorizontalScroll__slide"
         >
           <div className="HorizontalScroll__snapper"></div>
           <a
@@ -47,8 +47,8 @@ export default function HorizontalScroll({}: HorizontalScrollProps) {
         </li>
         <li
           id="HorizontalScroll__slide3"
-          tabIndex="0"
-          class="HorizontalScroll__slide"
+          tabIndex={0}
+          className="HorizontalScroll__slide"
         >
           <div className="HorizontalScroll__snapper"></div>
           <a
@@ -66,8 +66,8 @@ export default function HorizontalScroll({}: HorizontalScrollProps) {
         </li>
         <li
           id="HorizontalScroll__slide4"
-          tabIndex="0"
-          class="HorizontalScroll__slide"
+          tabIndex={0}
+          className="HorizontalScroll__slide"
         >
           <div className="HorizontalScroll__snapper"></div>
           <a
@@ -130,7 +130,7 @@ export default function HorizontalScroll({}: HorizontalScrollProps) {
 //     data.forEaach(function(image, i) {
 //       document.querySelector("#slide-" + (i+1)).innerHTML = `
 //         <img src="${image.urls.regular}" alt="">
-//         <p class="author-info">
+//         <p className="author-info">
 //           <a href="${image.links.html}?utm_source=slider-thing&utm_medium=referral&utm_campaign=api-credit">Photo by ${image.user.name}</a> on <a href="https://unsplash.com/">Unsplash</a>
 //         </p>
 //       `;
