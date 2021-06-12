@@ -60,7 +60,7 @@ export default function PercentageCircles({
                 .lighten(0.3 * (circleCount - circleIndex - 1))
                 .hex()
             };
-            return <Circle {...props} />;
+            return <Circle {...props} key={`${circleIndex}`} />;
           })}
     </svg>
   );
